@@ -1,55 +1,105 @@
 ## Summary
 
-Replace this paragraph with one or more paragraphs summarizing the purpose and operation of the software you propose to develop in this project.
+At North Star Sharing we aim to bring the furthest reaches of the vast riches from outer space
+within reach one picture at a time! Weather you love to capture beautiful long exposer photos of the
+night sky, or the highly technical imagines produced by telescopes like The Giant Magellan Telescope
+we’ve got you covered. Easily share the captivating imagines you take alongside with the Celestial
+Coordinates to a community of fellow gazers! Explore other members photos and find them for yourself
+with the attached coordinates and help from your phone to point you in the right direction.
 
 ## Intended users
 
-Write a bullet list here, including at least 2 different types of intended users. Make it reasonably specific; simply saying "Anyone who likes games" (for example) is not sufficiently specific.
+<ol>
 
-For each type of intended user, include at least 1 _user story_. A user story is usually just 1 simple sentence (no more than 2 sentences), in the voice of the intended user, stating a specific task that the user needs to perform, and the benefit that will be obtained. The simplest user stories take the form 
+  <li>A person who loves taking special photos of the night sky and other celestial events</li><br>
 
-> As a <type of intended user (_who_)> I want to <goal (_what_)> so that <benefit (_why_).
+<ul><li>As a person who loves to share the stunning pictures I take I want a platform dedicated to
+sharing pictures of the sky so that I can be inspired and share more of what
+I love with people that will appreciate it.</li></ul><br>
 
-Please avoid writing too much for the user story. In particular, if the way the user story is written makes it difficult to see the _who_, _what_, and _why_, then you probably need to re-write it more directly. (On the other hand, a user story should not simply be a re-statement of the intended user description.)
+  <li>A scientist looking to share information to help further discoveries</li><br>
 
-Here is one (silly) example of an intended user, along with a user story. Please note not only the conceptual structure, but the Markdown syntax used.
+<ul><li>As a scientist I understand that it is a privilege to have access to the worlds most powerful 
+telescopes and I want to share those rare opportunities with the rest of the star gazing community
+so that I can have more people helping to unlock the mysteries of space.</li></ul><br>
 
-* People who like to use randomness in their decision making.
+  <li>A beginner star gazer looking to find beautiful stellar objects in the night sky</li><br>
 
-    > As someone who enjoys randomness in my life, I need an app that lets me flip a virtual coin or roll one or more virtual dice, so that I can base my decisions on randomness, without having to carry coins or dice in my pockets.
+<ul><li>As someone who is just getting into star gazing I want to have access to a full library of 
+interesting objects with coordinates so that I can find them and see them for myself. </li></ul><br>
+
+</ol>
 
 ## Client component
 
 * **Functionality**
 
-    List the key functional aspects that will be provided by the user interface---i.e. tell us what the user will be able to do in the GUI.
+  <ul>
+
+    <li>Sign in to an account</li><br>
+    <li>See other users pictures</li><br>
+    <li>View coordinates of the focal point of the object</li><br>
+    <li>Use a phone to help guid where to look for the objects</li><br>
+    <li>Share pictures and celestial coordinates</li><br>
+
+  </ul>
 
 * **Persistent data**
 
-    Summarize, in general terms, what content will be stored on the client side. This should include any information that a user of your system should expect to be maintained locally (i.e. without connection to a server) across multiple sessions of use, on a single device. 
-    
+<ul>
+
+  <li>Pictures to be uploaded</li><br>
+  <li>Profile data eg: name, user type...</li><br>
+
+</ul>
+
 * **Device/external services**
 
-    If the client component will need to access special services of the device (e.g. sensors, contacts, messaging), list them here. Also, if the client component will need to access already-existing external services (e.g. real-time weather data, Open Trivia Database), those should also be listed here; any such references to external services should include links to the main page or API description page for the service.
-    
-For listing multiple items, please use bullet lists (or ordered lists, if order is relevant), not just separate lines or paragraphs of text.
-    
+<ul>
+
+  <li>Full range of positing sensors - 
+    (https://developer.android.com/guide/topics/sensors/sensors_position)</li><br>
+
+  <li>Camera - 
+    (https://codelabs.developers.google.com/codelabs/camerax-getting-started#1)</li><br>
+
+  <li>Stored files: if the picture is first loaded on to the phone </li><br>
+  
+</ul>
+
 ## Server component
 
 * **Functionality**
 
-    List the key functional aspects that will be provided by the server component---i.e. tell us what parts of the system functionality will be performed by the server.
+<ul>
+
+  <li>Holding the pictures with coordinates of other users</li><br>
+
+</ul>
 
 * **Persistent data**
 
-    Summarize, in general terms, what content will be stored on the server side. This should include any information that a user of your system should expect to be accessible across multiple sessions of use, even if accessed from separate devices. In addition, if there will be data originating from some users that will then be accessible by other users, it should be part of the persistent data on the server. 
-    
+<ul>
+
+  <li>Users pictures and albums with tags and coordinates</li><br>
+  <li>A copy of user profiles</li><br>
+
+</ul>
+
 * **External services**
 
-    If the server component will need to access already-existing external services (e.g. stock prices, Open Movie Database), those should also be listed here. Any such references to external services should include links to the main page or API description page for the service.
-    
-For listing multiple items, please use bullet lists (or ordered lists, if order is relevant), not just separate lines or paragraphs of text.
-    
-## Stretch goals/possible enhancements 
+<ul>
 
-If you can identify functional elements of the software that you think might not be achievable in the scope of the project, but which would nonetheless add significant value if you were able to include them, list them here. For now, we recommend listing them in order of complexity/amount of work, from the least to the most.
+  <li>Database of celestial coordinates of the most popular objects - 
+    (https://github.com/astrocatalogs/OACAPI)</li><br>
+
+</ul>
+
+## Stretch goals/possible enhancements
+
+<ul>
+
+  <li>Ability to follow other users</li>
+  <li>Add interface to instruct smart-telescopes where to look</li>
+
+</ul>
