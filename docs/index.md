@@ -36,7 +36,7 @@ interesting objects with coordinates so that I can find them and see them for my
 
   <ul>
 
-    <li>Sign in to an account</li><br>
+    <li>Sign in to an account with google authorization</li><br>
     <li>See other users pictures</li><br>
     <li>View coordinates of the focal point of the object</li><br>
     <li>Use a phone to help guid where to look for the objects</li><br>
@@ -57,7 +57,8 @@ interesting objects with coordinates so that I can find them and see them for my
 
 <ul>
 
-  <li>Full range of positing sensors - 
+  <li>Full range of positing sensors (accelerometer, mag. field and gps) to capture coordinates and
+guide users to object- 
     (https://developer.android.com/guide/topics/sensors/sensors_position)</li><br>
 
   <li>Camera - 
@@ -74,6 +75,7 @@ interesting objects with coordinates so that I can find them and see them for my
 <ul>
 
   <li>Holding the pictures with coordinates of other users</li><br>
+  <li>Sign in to an account with google authorization</li><br>
 
 </ul>
 
